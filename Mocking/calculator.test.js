@@ -4,7 +4,7 @@ const math = require("./math");
 jest.mock("./math");
 
 test("calculateSum utilise la fonction add simulée", () => {
-  math.add.mockImplementation(() => 30);
+  math.add.mockImplementation(() => 3);
 
   const result = calculateSum(11, 2);
 
